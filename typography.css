@@ -1,0 +1,37 @@
+.pDisplay{
+    font-weight: light;
+    font-size: 42pt;
+}
+
+.pHeader {
+    font-weight: bold;
+    font-size: 34pt;
+    opacity: 85%;
+}
+
+.pTitle_main {
+    font-weight: medium;
+    font-size: 28pt;
+}
+
+
+.pTitle_secondary {
+    font-weight :medium;
+    font-size: 18pt;
+}
+
+.pHeadline {
+    font-weight: normal;
+    font-size: 20pt;
+}
+
+.pBody{
+    font-weight:normal;
+    font-size: 14pt;
+    opacity: 65%;
+}
+
+.pCaption{
+    font-weight:normal;
+    font-size: 12pt; 
+}

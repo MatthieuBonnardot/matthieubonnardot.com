@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+   }
+
+body {
+    line-height: 2em;
+    background-color:black;
+}
+
+.center {
+    text-align: center;
+}
+
+.freeup{
+    padding: 1em;
+    margin-bottom: 0.2 em;
+}
+
+.landing-bg{
+    
+}
+
+.bg-cool-orange {
+  background-color:#EDD892;
+  background-blend-mode: darken;
+}
+
+.small{
+    height: 25%;
+    width: 25%;
+}
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 80vh; /* These two lines are counted as one :-)       */
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .removegap{
+      margin-bottom: 0;
+  }
+
+.bg {
+    background-color: black !important;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+
+}
+
