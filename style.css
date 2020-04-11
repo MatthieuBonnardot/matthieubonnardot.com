@@ -16,8 +16,22 @@ body {
     margin-bottom: 0.2 em;
 }
 
-.landing-bg{
-    
+
+@keyframes buttons {
+    0%{
+        transform: translateY(-50);
+        opacity: 0;
+        }
+    46%{
+        transform: translateY(-30);
+        opacity: 0.5;
+        }
+    100%{
+        }
+}
+
+.frame{
+    animation: buttons 3s 1 0s linear;
 }
 
 .bg-cool-orange {
