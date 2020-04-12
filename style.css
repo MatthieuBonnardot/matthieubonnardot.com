@@ -64,6 +64,10 @@ body {
     background-color: #FED766 !important;
 }
 
+.bg-green{
+    background-color: #6BAA75 !important;
+}
+
 .bg-blue{
     background-color: #01BAEF !important;
 }
@@ -78,7 +82,7 @@ body {
 }
 
 .contenedor {
-	height: 15vh%;
+	height: 100%;
 }
 
 h1 {
@@ -93,6 +97,7 @@ h1 {
     margin: 5px;
     border-radius: 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation: yourAnimation 2s 1 0s ease-out;
 }
 
 .container_foto article {
@@ -164,3 +169,21 @@ h1 {
 
 
 /*hovers*/
+@keyframes yourAnimation{
+    0%{
+        transform: rotate(xx);
+        opacity: 0.1;
+        }
+    60%{
+        transform: rotate(xx) translateY(20%);
+        opacity: 0.8;
+        }
+    100%{
+        transform: rotate(xx);
+        opacity: 1;
+        }
+}
+
+.elementToAnimate{
+    
+}

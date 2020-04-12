@@ -13,9 +13,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--load amimate.css from CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css"> 
     <title>Matthieu Bonnardot</title>
 </head>
-
 
 <body>
     <div class="jumbotron bg no-white-space">
@@ -41,7 +42,7 @@
     </div>
 
     <div id="middle" class="jumbotron jumbotron-fluid bg-yellow" style="margin-top: 0; margin-bottom: 0">
-        <h1 class=" center pDisplay">About me.</h1>
+        <h1 class=" text-dark center pDisplay">About me.</h1>
         <p class="pBody center">
             Final year Computer Science student at the Vrije Universiteit Amsterdam.<br />
             Born in Germany and raised
@@ -57,7 +58,7 @@
 
         <div class="container-fluid contenedor text-center">
             <div class=" container text-center">
-                <div class="row">
+                <div class="row wow fadeInDown box">
                     <div class="col container_foto ">
                         <div class="ver_mas text-center">
                            <span  class="lnr lnr-eye"></span>
@@ -104,54 +105,47 @@
 
         
     </div>
-    <div class="jumbotron jumbotron-fluid no-white-space" style="margin-top: 0; margin-bottom: 0">
+    <div class="jumbotron jumbotron-fluid no-white-space freeup bg-green" style="margin-top: 0; margin-bottom: 0">
         <h2 class="pDisplay center freeup">Experiences.</h2>
-        <div class=" container freeup">
-            <div class="card text-center">
-                <div class="card-header pTitle_secondary"><p>High School Internship <br />
-                    Intel Corporation - Sophia Antipolis</p>
+
+        <div class="container-fluid contenedor text-center">
+            <div class=" container text-center">
+                <div class="row wow fadeInDown box">
+                    <div class="col container_foto ">
+                        <div class="ver_mas text-center">
+                           <span  class="lnr lnr-eye"></span>
+                        </div>
+                        <article class="text-left text-light">
+                           <h2>High School Internship <br />
+                            Intel Corporation - Sophia Antipolis</h2> 
+                            <p>First introduction to the world of technology at the Intel campus in Sophia
+                                Antipolis. Shadowing various employees from IT to HR attending various meetings.</p>
+                            <span class="pCaption">Feb 2011 - March 2011</span>    
+                        </article>
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnewtonfoxbds.com%2Fwp-content%2Fuploads%2F2019%2F04%2F0005_intel-logo-vector-01-1.png&f=1&nofb=1" alt="">
+                     </div>
+                     <div class="col container_foto">
+                        <div class="ver_mas text-center">
+                           <span id="click" class="lnr lnr-eye"></span>
+                        </div>
+                        <article class="text-left text-light">
+                            <h2>Bakery
+                                <br />Thomas & Sons - North London</h2>
+                                     <p>
+                                        In my High school years, I was required to perform an internship for a few
+                                        weeks. After doing one at Intel. I decided to work at my uncle's bakery. This introduced me to
+                                        manual labour and the concept of efficiency.
+                                     </p>
+                                     <span class="pCaption">Feb 2012 - March 2012</span>       
+                         </article>
+                        <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-5Jn6dqxLVXE%2FT_6y0MNN2vI%2FAAAAAAAABkU%2Ftaz18Vn34k4%2Fs640%2Fboulangerie.jpg&f=1&nofb=1" alt="">
+                     </div>
                 </div>
-                <div class="card-body pBody">First introduction to the world of technology at the Intel campus in Sophia
-                    Antipolis. Shadowing various employees from IT to HR attending various meetings.</div>
-                <div class="card-footer pCaption">Feb 2011 - March 2011</div>
-            </div>
-        </div>
-        <div class=" container freeup">
-            <div class="card text-center">
-                <div class="card-header pTitle_secondary"><p>Bakery
-                    <br />Thomas & Sons - North London</p>
-                </div>
-                <div class="card-body pBody">In my High school years, I was required to perform an internship for a few
-                    weeks. After doing one at Intel. I decided to work at my uncle's bakery. This introduced me to
-                    manual labour and the concept of efficiency.</div>
-                <div class="card-footer pCaption">Feb 2012 - March 2012</div>
-            </div>
-            <hr />
-
-
-        </div>
-
-    </div>
-
-    <div class="container-fluid center freeup">
-        <div class="row">
-            <div class="col-sm-4 bg">
-                <h2 class="center pHeadline text-light freeup">My Tech stack.</h2>
-                <vr />
-            </div>
-            <div class="col-sm-8">
-                <img src="assets/my-icons-collection/png/001-css.png" />
-                <img src="assets/my-icons-collection/png/006-html-5.png" />
-                <img src="assets/my-icons-collection/png/002-javascript.png" />
-                <img src="assets/my-icons-collection/png/003-react.png" />
-                <img src="assets/my-icons-collection/png/004-nodejs.png" />
-                <img src="assets/my-icons-collection/png/005-java.png" />
-                <img src="assets/my-icons-collection/png/008-c.png" />
-                <img src="assets/my-icons-collection/png/009-python.png" />
-                <img src="assets/my-icons-collection/png/007-github.png" />
             </div>
         </div>
     </div>
+
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -223,6 +217,13 @@
             document.body.appendChild(css);
         };
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
+</script>
+
+<!--Initiate WOW js, can be at the bottom of your file -->
+<script> new WOW().init(); </script>
+
+
 </body>
 
 </html>
