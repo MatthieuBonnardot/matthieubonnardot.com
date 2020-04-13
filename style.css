@@ -184,6 +184,21 @@ h1 {
         }
 }
 
-.elementToAnimate{
-    
+.profilepic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px; 
+    border-radius: 50%;
+    box-shadow: 10px;
 }
+
+.container_foto:hover{
+    box-shadow: 0 0 10px;
+}
+
+.fa:hover{
+    color: blue;
+}
+
+
