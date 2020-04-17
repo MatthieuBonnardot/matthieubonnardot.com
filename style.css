@@ -4,7 +4,7 @@ html {
 
 body {
     line-height: 2em;
-    background-color:black;
+    background-color:#02182B;
 }
 
 .center {
@@ -56,7 +56,7 @@ body {
   }
 
 .bg {
-    background-color: black !important;
+    background-color:#02182B !important;
     
 }
 
@@ -70,6 +70,15 @@ body {
 
 .bg-blue{
     background-color: #01BAEF !important;
+}
+
+
+.bg-red{
+    background-color: #68C5DB !important;
+}
+
+.bg-light-blue{
+    
 }
 
 .rounded{
@@ -86,20 +95,26 @@ h1 {
 	color: #FCFBFA;
 }
 
+
+
 .container_foto {
-    background-color:#1C3041;
+    background-color: #02182B;
     height: auto;
 	padding: 0;
     margin: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    animation: yourAnimation 2s 1 0s ease-out;
 }
 
 .container_foto article {
-	padding: 10%;
+    padding: 5%;
 	bottom: 0;
 	z-index: 1;
 }
+
+.container , .jumbotron {
+    border-radius: 0 !important;
+}
+
 
 .container_foto h2 {
 	color: #fff;
@@ -131,7 +146,9 @@ h1 {
 	width: auto;
 	top: 13px;
 }
-
+.navbar-default, .navbar-toggler, .navbar-toggler-icon {
+    background-color: white !important;
+}
 
 /*hovers*/
 @keyframes yourAnimation{
@@ -173,4 +190,16 @@ h1 {
     
 }
 
+.behind-title {
+    z-index: -1;
+    top:0;
+    
+}
 
+.hover:hover{
+    text-shadow: 0 0 10px white;
+}
+
+.md-88{
+    font-size: 88px;
+}

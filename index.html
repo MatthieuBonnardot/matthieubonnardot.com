@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="buttons.css">
     <link rel="stylesheet" href="typography.css">
+    <link href="https://fonts.googleapis.com/css?family=Maitree|Nunito|Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,8 +21,24 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light  bg" style="width:100%;">
+        <a class="navbar-brand text-light pDisplay hover wow fadeInLeft box" href="https://matthieubonnardot.com">Matthieu Bonnardot</a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end pBody wow fadeInRight box" id="navbarNavAltMarkup">
+          <div class="navbar-nav ">
+            <a class="nav-item nav-link white hover" href="#middle">About.me</a>
+            <a class="nav-item nav-link white hover" href="#">Projects</a>
+            <a class="nav-item nav-link text-light hover" href="#">Contact</a>
+          </div>
+        </div>
+      </nav> 
+      <button onclick="topFunction()" id="myBtn" class="myBtn" title="Go to top"><i class="material-icons md-88 md-light hover">
+        keyboard_arrow_up
+      </i></button>
     <div class="jumbotron bg no-white-space">
-        <image src="assets/big-logo/2.png" style="width:7%; height:7%; margin-left:2%; margin-top: 2%" />
+        
         <div class="vertical-center text-center">
             <div class="container display-1 ">
                 <h1>
@@ -29,14 +47,6 @@
                         <span class="wrap"></span>
                     </a>
                 </h1>
-                <div class="pt-3 frame">
-                    <button type="button" href="#middle" class="pCaption neu circle"><a class="text-light"
-                            href="#middle">About.me</a></button>
-                    <button type="button" class="pCaption neu circle"><a class="text-light"
-                            href="#projects">Projects</a></button>
-                    <button type="button" class="pCaption neu circle"><a class="text-light"
-                            href="#contact">Contact</a></button>
-                </div>
             </div>
         </div>
     </div>
@@ -44,7 +54,7 @@
     <div id="middle" class="jumbotron jumbotron-fluid bg-yellow" style="margin-top: 0; margin-bottom: 0">
         <h1 class=" text-dark center pDisplay wow fadeInDown box">About me.</h1>
         <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEWfq59_MQvgg/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=9DYciVInP0kdFo06abJxW6dCbsnPEgnnK3oQfeENCPY" class="freeup wow fadeInDown box profilepic" alt="Avatar" />
-        <p class="pBody center">
+        <p class="pBody center freeup">
             Final year Computer Science student at the Vrije Universiteit Amsterdam.<br />
             Born in Germany and raised
             in the south of France, from two cultures (French & Jamaican).<br />
@@ -53,10 +63,8 @@
             technologies.
         </p>
     </div>
-    <div class="jumbotron jumbotron-fluid bg-blue " style="margin-top: 0; margin-bottom: 0">
+    <div class="jumbotron jumbotron-fluid bg-light " style="margin-top: 0; margin-bottom: 0">
         <h2 class="pDisplay  center freeup wow fadeInDown box">Education.</h2>
-
-
         <div class="container-fluid text-center">
             <div class="container text-center">
                 <div class="row flex wow fadeInRight box">
@@ -66,37 +74,40 @@
                         </div>
                         <article class="text-left text-light" >
                             <span class="pCaption">2016 - Present</span> 
-                           <h2><a href="https://vuweb.vu.nl/en/education/bachelor/computer-science" style="color: #ffff">Bachelor of Science  Computer Science <br />@ Vrije
-                            Universiteit Amsterdam - Beta Faculty</a></h2> 
+                           <h2 class="pHeader"><a href="https://vuweb.vu.nl/en/education/bachelor/computer-science" style="color: #ffff">Bachelor of Science  Computer Science <br />@ Vrije
+                            Universiteit Amsterdam</a></h2> 
                             </article>
                      </div>
+
                      <div class="col container_foto">
                         <div class="ver_mas text-center">
                            <span id="click" class="lnr lnr-eye"></span>
                         </div>
                         <article class="text-left text-light">
                             <span class="pCaption">2019 - 2020</span> 
-                            <h2><a href="https://minor.vu.nl/nl/minoren/business-administration/index.aspx" style="color: #ffff">
+                            <h2 class="pHeader"><a href="https://minor.vu.nl/nl/minoren/business-administration/index.aspx" style="color: #ffff">
                                 Minor - Business Administration <br /> New ways of doing
                                 business
                             </a></h2>
-                                 <h6>GPA : 7.5 <br /></h6>
-                                 <h6>Important courses: </h4>
-                                     <p>
-                                         Foundations of Business Administration.<br/>
-                                         Organizational Behavior.<br/>
-                                         Business Model Assessment.<br/>
+                                 <h6 class="pBody white">GPA : 7.5 <br /></h6>
+                                 <h6 class="pBody white">Important courses: </h4>
+                                     <p class="pBody white">
+                                         - Foundations of Business Administration.<br/>
+                                         - Organizational Behavior.<br/>
+                                         - Business Model Assessment.<br/>
                                      </p>
                          </article>
                      </div>
+
                      <div class="col container_foto">
                         <div class="ver_mas text-center">
                            <span class="lnr lnr-eye"></span>
                         </div>
                         <article class="text-left text-light">
-                           <h2>Abroad - High School <br /> @ Vandegrift High School - Austin,
+                            <span class="pCaption">2013 - 2014</span>
+                           <h2 class="pHeader"> High School Year Abroad <br /> @ Vandegrift High School - Austin,
                             TX USA</h2>
-                           <p>Self-Organized year abroad, Discovering life in the United States of America. Participated
+                           <p class="pBody white">Self-Organized year abroad, Discovering life in the United States of America. Participated
                             in various school events and took Sophomore year classes.</p>
                         </article>
                      </div>
@@ -107,19 +118,19 @@
         
     </div>
     <div class="jumbotron jumbotron-fluid no-white-space freeup bg-light" style="margin-top: 0; margin-bottom: 0">
-        <h2 class="pDisplay center freeup wow fadeInDown box">Experiences.</h2>
+        <h2 class="pDisplay text-center freeup wow fadeInDown box">Experiences.</h2>
 
         <div class="container-fluid  text-center">
             <div class=" container text-center">
-                <div class="row flex wow fadeInLeft box">
+                <div class="row flex wow fadeInLeft box freeup">
                     <div class="col container_foto ">
                         <div class="ver_mas text-center">
                            <span  class="lnr lnr-eye"></span>
                         </div>
                         <article class="text-left text-light">
-                           <h2>High School Internship <br />
+                           <h2 class="pHeader">High School Internship <br />
                             Intel Corporation - Sophia Antipolis</h2> 
-                            <p>First introduction to the world of technology at the Intel campus in Sophia
+                            <p class="pBody white">First introduction to the world of technology at the Intel campus in Sophia
                                 Antipolis. Shadowing various employees from IT to HR attending various meetings.</p>
                             <span class="pCaption">Feb 2011 - March 2011</span>    
                         </article>
@@ -129,9 +140,9 @@
                            <span id="click" class="lnr lnr-eye"></span>
                         </div>
                         <article class="text-left text-light">
-                            <h2>Bakery
+                            <h2 class="pHeader">Bakery
                                 <br />Thomas & Sons - North London</h2>
-                                     <p>
+                                     <p class="pBody white">
                                         In my High school years, I was required to perform an internship for a few
                                         weeks. After doing one at Intel. I decided to work at my uncle's bakery. This introduced me to
                                         manual labour and the concept of efficiency.
@@ -222,6 +233,25 @@
 <!--Initiate WOW js, can be at the bottom of your file -->
 <script> new WOW().init(); </script>
 
+<script>//Get the button:
+    mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }</script>
 
 </body>
 

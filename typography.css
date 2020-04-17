@@ -1,21 +1,26 @@
 .pDisplay{
+    font-family: nunito;
     font-weight: light;
     font-size: 42pt;
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .pHeader {
+    font-family: nunito;
     font-weight: bold;
     font-size: 34pt;
     opacity: 85%;
 }
 
 .pTitle_main {
+    font-family: nunito;
     font-weight: medium;
     font-size: 28pt;
 }
 
 
 .pTitle_secondary {
+    font-family: maitree;
     font-weight :medium;
     font-size: 18pt;
 }
@@ -26,6 +31,8 @@
 }
 
 .pBody{
+    font-family: Work Sans;
+  
     font-weight:normal;
     font-size: 14pt;
     opacity: 65%;
@@ -35,3 +42,20 @@
     font-weight:normal;
     font-size: 12pt; 
 }
+
+.white{
+    color: white !important; 
+}
+
+.black{
+    color: black !important; 
+    opacity: 100%;
+}
+
+.blackwashed{
+    color: black !important; 
+    opacity: 80%;
+}
+
+
+
