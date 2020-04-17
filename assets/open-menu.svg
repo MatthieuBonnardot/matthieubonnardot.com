@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 124 124" style="enable-background:new 0 0 124 124;" xml:space="preserve" class=""><g><g>
-	<path d="M112,6H12C5.4,6,0,11.4,0,18s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,6,112,6z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
-	<path d="M112,50H12C5.4,50,0,55.4,0,62c0,6.6,5.4,12,12,12h100c6.6,0,12-5.4,12-12C124,55.4,118.6,50,112,50z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
-	<path d="M112,94H12c-6.6,0-12,5.4-12,12s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,94,112,94z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px" class=""><g><g>
+	<path d="M502.154,59.077H9.846C4.408,59.077,0,54.669,0,49.231s4.408-9.846,9.846-9.846h492.308   c5.438,0,9.846,4.408,9.846,9.846S507.592,59.077,502.154,59.077z" data-original="#428DFF" class="active-path" data-old_color="#428DFF" fill="#FFFFFF"/>
+	<path d="M502.154,196.923H9.846c-5.438,0-9.846-4.408-9.846-9.846c0-5.438,4.408-9.846,9.846-9.846h492.308   c5.438,0,9.846,4.408,9.846,9.846C512,192.515,507.592,196.923,502.154,196.923z" data-original="#428DFF" class="active-path" data-old_color="#428DFF" fill="#FFFFFF"/>
+	<path d="M502.154,334.769H9.846c-5.438,0-9.846-4.408-9.846-9.846c0-5.438,4.408-9.846,9.846-9.846h492.308   c5.438,0,9.846,4.408,9.846,9.846C512,330.361,507.592,334.769,502.154,334.769z" data-original="#428DFF" class="active-path" data-old_color="#428DFF" fill="#FFFFFF"/>
+	<path d="M502.154,472.615H9.846c-5.438,0-9.846-4.408-9.846-9.846c0-5.438,4.408-9.846,9.846-9.846h492.308   c5.438,0,9.846,4.408,9.846,9.846C512,468.207,507.592,472.615,502.154,472.615z" data-original="#428DFF" class="active-path" data-old_color="#428DFF" fill="#FFFFFF"/>
 </g></g> </svg>
