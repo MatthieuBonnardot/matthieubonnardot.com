@@ -203,3 +203,19 @@ h1 {
 .md-88{
     font-size: 88px;
 }
+
+.navbar-toggler-icon {
+    background-image: url("./assets/open-menu.svg") !important;
+    background-color: transparent !important;
+}
+.navbar-toggler { 
+    border-color : transparent!important;
+    background-color: transparent !important;
+}
+
+.navbar-light {
+    color: transparent !important;
+}
+navbar-toggler-icon {
+    /* background-color: white !important; */
+}
